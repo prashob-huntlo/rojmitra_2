@@ -1,0 +1,18 @@
+# Build directories and cache
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+
+# IDE configurations
+.idea/
+*.iml
+.vscode/
+
+# Backend / Environment files
+**/node_modules/
+**/.env
+**/gcs-service-account.json
+**/*-service-account.json

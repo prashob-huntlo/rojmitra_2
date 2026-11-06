@@ -1,0 +1,19 @@
+# Project: EJ Blue Collar Intelligence (labor-intelligent-sys)
+# Scope: Full-stack monorepo (Flutter frontend + Backend services)
+
+## Core Philosophies (Strict Enforcement)
+- **First Principles Thinking:** Break problems down to their most basic, foundational truths. Do not copy bloated boilerplate or build complex abstractions prematurely. Build from the ground up based on absolute requirements.
+- **KISS (Keep It Simple, Stupid):** Simplicity is our best friend. Avoid over-engineering, unnecessary microservices, overly clever one-liners, or redundant design patterns. Choose the most direct, readable, and maintainable path.
+
+
+## Git & Identity
+- Author identity: dhruval-huntlo <dhruval@huntlo.ai>
+- Push target: origin/main on gigkaroonline-svg/EJ_blue_collar_Intelligence
+
+## Monorepo Layout
+- /frontend: Flutter application. Follow Dart/Flutter best practices, use structured state management, and do not track build/ or .dart_tool/ artifacts.
+- /backend: API services and intelligence layer. Keep business logic modular and enforce strict environment variable separation (.env).
+
+## Coding Guidelines
+- Prioritize clean architecture, testable services, and explicit error handling.
+- When generating code, follow existing project naming conventions and structure.
